@@ -8,5 +8,4 @@ In the set, each line represents the pixel vector of an image 'i'. The data file
 Files:
 The "KPCA_iterative.py" file presents the iterative implemented KPCA method, the "KPCA_predef.py" file contains the predefined method in the scikit-learn library, and the "face_data.csv" file contains the data set.
 
-Please download and unzip the directory. Open the "KPCA_iterative.py" file and run the code using the command
-> python KPCA_iterative.py
+Please download and unzip the directory. Open the "KPCA_iterative.py" file and run the code using the command: python KPCA_iterative.py
