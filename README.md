@@ -11,7 +11,7 @@ One of the significant issues is the presence of _nonlinear_ correlations among 
 * This project presents the use of the Kernel Principal Component Analysis method for facial recognition.  
 
 * Using machine learning, the method trains a data set (images of faces as pixel matrices). It picks a sample test image and finds the closest similar matrix of pixels from the set: each line represents the pixel vector of an image 'i'. The data file contains 40 persons with 10 images each (400-pixel vectors).
-* As the first step, the `KPCA` function calculates the kernel matrix, centering it in the nonlinear feature space. It calculates the eigenvectors and eigenvalues of this K matrix, projecting them in the PCA subspace. The data is ready to be used by a trained "SVM" classifier ('SVC' object), which predicts the closest image to the initial test sample chosen.
+* As the first step, the `KPCA` function calculates the kernel matrix, centering it in the nonlinear feature space. It calculates the eigenvectors and eigenvalues of this K matrix, projecting them in the PCA subspace. The data is ready to be used by a trained "SVM" classifier (`SVC` object), which predicts the closest image to the initial test sample chosen.
 
 ### Directory Files 
 
